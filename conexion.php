@@ -5,8 +5,8 @@
     $db = "alumnos";
     $conexion = new mysqli($server, $user, $pass, $db);
         if($conexion->connect_errno){
-            die("conexion Fallida" .
-            $ conexion->$conexion->connect_errno);
+            die("conexion Fallida".
+            $conexion->$conexion->connect_errno);
         } else {
             echo"Conectado";
         }
